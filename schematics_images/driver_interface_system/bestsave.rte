@@ -1,0 +1,938 @@
+ (routes 
+  (resolution inch 2540000)
+  (parser
+  )
+  (parser
+  )
+  (structure_out
+   (layer TOP (type signal)
+   )
+   (layer BOTTOM (type signal)
+   )
+  )
+  (library_out
+  (padstack ViaDefault
+   (shape (circ TOP 101600 0 0))
+   (shape (circ BOTTOM 101600 0 0))
+  )
+  )
+  (network_out
+   (Net GND 
+   )
+   (Net N$1 
+   (wire (path BOTTOM 25400  2809240 -5316220 1905000 -5316220 1905000 -6604000
+     -1143000 -6604000 -1143000 -5207000 -2080260 -5207000 -2080260 -4744720)
+    (connect (terminal pin X1-7) (terminal pin R1-2))
+   )
+   )
+   (Net N$2 
+   (wire (path BOTTOM 25400  3825240 -7094220 -2032000 -7094220 -2032000 -7549515
+     -6223000 -7549515 -6223000 -7366000 -6604000 -7366000 -6604000 8763000
+     -3223260 8763000 -3223260 7971406 -3302000 7971406 -3302000 7620000
+     -4874260 7620000 -4874260 8463280)
+    (connect (terminal pin X2-2) (terminal pin R10-1))
+   )
+   )
+   (Net N$3 
+   (wire (path BOTTOM 25400  3825240 -7348220 3429000 -7348220 3429000 -7620000
+     -6350000 -7620000 -6350000 -7493000 -6540500 -7493000 -6540500 7620000
+     -5080000 7620000 -5080000 8636000 -3943978 8636000 -3943978 8463280
+     -3350260 8463280)
+    (connect (terminal pin X2-1) (terminal pin R9-1))
+   )
+   )
+   (Net N$4 
+   (wire (path BOTTOM 25400  -3096260 8463280 -2667000 8463280 -2667000 8636000
+     1778000 8636000 1778000 8763000 7366000 8763000 7366000 -6794500
+     3810000 -6794500 3810000 -6332220 3063240 -6332220)
+    (connect (terminal pin R8-1) (terminal pin X1-16))
+   )
+   )
+   (Net N$5 
+   )
+   (Net N$6 
+   (wire (path BOTTOM 25400  3063240 -6078220 4191000 -6078220 4191000 -6604000
+     7175500 -6604000 7175500 7620000 5842000 7620000 5842000 8576310
+     4142740 8576310 4142740 8128000 3810000 8128000 3810000 8636000
+     2618740 8636000 2618740 8463280)
+    (connect (terminal pin X1-14) (terminal pin R6-1))
+   )
+   )
+   (Net N$7 
+   (wire (path BOTTOM 25400  2809240 -6078220 2809240 -6223000 4064000 -6223000
+     4064000 -6731000 7239000 -6731000 7239000 8636000 4015740 8636000
+     4015740 8463280)
+    (connect (terminal pin X1-13) (terminal pin R5-1))
+   )
+   )
+   (Net N$8 
+   (wire (path BOTTOM 25400  4269740 8463280 4269740 7366000 7051040 7366000
+     7051040 -1020271 6985000 -1020271 6985000 -6477000 4572000 -6477000
+     4572000 -5824220 3063240 -5824220)
+    (connect (terminal pin R4-1) (terminal pin X1-12))
+   )
+   )
+   (Net N$9 
+   (wire (path BOTTOM 25400  2809240 -5824220 2809240 -5969000 4445000 -5969000
+     4445000 -6540500 7112000 -6540500 7112000 7493000 5715000 7493000
+     5715000 8001000 5539740 8001000 5539740 8463280)
+    (connect (terminal pin X1-11) (terminal pin R3-1))
+   )
+   )
+   (Net N$10 
+   (wire (path BOTTOM 25400  -2715260 -6014720 -2715260 -6350000 -3048000 -6350000)
+    (connect (terminal pin R2-1) (terminal wire))
+   )
+   (wire (path BOTTOM 25400  -3048000 -6804660 -3048000 -6350000)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOTTOM 25400  -3421380 -6804660 -3048000 -6804660)
+    (connect (terminal pin S1-4) (terminal wire))
+   )
+   (wire (path BOTTOM 25400  -3048000 -6804660 -2771140 -6804660)
+    (connect (terminal wire) (terminal pin S1-3))
+   )
+   (wire (path BOTTOM 25400  -3048000 -6350000 -3048000 -6096000 -3477260 -6096000
+     -3477260 -6332220)
+    (connect (terminal wire) (terminal pin D1-A))
+   )
+   )
+   (Net N$11 
+   (wire (path BOTTOM 25400  -4081780 6964680 -3937000 6964680 -3937000 6223000
+     -5334000 6223000 -5334000 4551680 -6271260 4551680)
+    (connect (terminal pin DIS2-P$11) (terminal pin R11-2))
+   )
+   )
+   (Net N$12 
+   (wire (path BOTTOM 25400  561340 6685280 1016000 6685280 1016000 6477000
+     3037840 6477000 3037840 5059680)
+    (connect (terminal pin DIS4-2) (terminal pin R24-2))
+   )
+   (wire (path BOTTOM 25400  561340 6685280 -302260 6685280)
+    (connect (terminal pin DIS4-2) (terminal pin SL1-2))
+   )
+   )
+   (Net N$13 
+   )
+   (Net N$14 
+   (wire (path BOTTOM 25400  -3573780 5440680 -3573780 5842000 -4191000 5842000
+     -4191000 4683760 -5072380 4683760)
+    (connect (terminal pin DIS2-P$4) (terminal pin R13-2))
+   )
+   )
+   (Net N$15 
+   (wire (path BOTTOM 25400  3622040 4742180 3622040 7112000 4396740 7112000
+     4396740 6939280)
+    (connect (terminal pin R25-2) (terminal pin DIS3-P$11))
+   )
+   )
+   (Net N$16 
+   (wire (path BOTTOM 25400  -4335780 5440680 -4335780 4996180 -4653280 4996180)
+    (connect (terminal pin DIS2-P$1) (terminal pin R14-2))
+   )
+   )
+   (Net N$17 
+   (wire (path BOTTOM 25400  -937260 4551680 -937260 5415280 -302260 5415280)
+    (connect (terminal pin R21-2) (terminal pin SL1-7))
+   )
+   (wire (path BOTTOM 25400  -302260 5415280 561340 5415280)
+    (connect (terminal pin SL1-7) (terminal pin DIS4-7))
+   )
+   )
+   (Net N$18 
+   (wire (path BOTTOM 25400  -4226560 4536440 -4081780 4536440 -4081780 5440680)
+    (connect (terminal pin R15-2) (terminal pin DIS2-P$2))
+   )
+   )
+   (Net N$19 
+   (wire (path BOTTOM 25400  -3746500 4991100 -3319780 4991100 -3319780 5440680)
+    (connect (terminal pin R16-2) (terminal pin DIS2-P$5))
+   )
+   )
+   (Net N$20 
+   (wire (path BOTTOM 25400  4287520 2385060 4160520 2385060 4160520 2667000
+     3931073 2667000 3931073 3683000 3937000 3683000 3937000 4064000
+     3429000 4064000 3429000 7366000 -4445000 7366000 -4445000 7112000
+     -4335780 7112000 -4335780 6964680)
+    (connect (terminal pin IC1-4) (terminal pin DIS2-P$12))
+   )
+   )
+   (Net N$21 
+   (wire (path BOTTOM 25400  -3573780 6964680 -3573780 6477000 -2667000 6477000
+     -2667000 7239000 3302000 7239000 3302000 3937000 3881966 3937000
+     3881966 2921000 3652520 2921000 3652520 2159000 4541520 2159000
+     4541520 2385060)
+    (connect (terminal pin DIS2-P$9) (terminal pin IC1-5))
+   )
+   )
+   (Net N$22 
+   (wire (path BOTTOM 25400  4795520 2385060 4795520 2921000 4414520 2921000
+     4414520 3807067 4318000 3807067 4318000 4191000 3498850 4191000
+     3498850 7493000 -4572000 7493000 -4572000 6731000 -4237040 6731000
+     -4237040 7160890 -4318000 7160890 -4318000 7302500 -2921000 7302500
+     -2921000 6731000 -3319780 6731000 -3319780 6964680)
+    (connect (terminal pin IC1-6) (terminal pin DIS2-P$8))
+   )
+   )
+   (Net N$23 
+   )
+   (Net N$24 
+   )
+   (Net N$25 
+   (wire (path BOTTOM 25400  -6144260 8082280 -6144260 8463280 -5890260 8463280)
+    (connect (terminal pin LED1-A) (terminal pin R10-2))
+   )
+   (wire (path BOTTOM 25400  -5255260 8082280 -6144260 8082280)
+    (connect (terminal pin LED2-A) (terminal pin LED1-A))
+   )
+   )
+   (Net N$26 
+   (wire (path BOTTOM 25400  -177960 -6151720 -177960 -4953000 -1143000 -4953000
+     -1143000 -3556000 -2222500 -3556000 -2222500 1778000 -3175000 1778000
+     -3175000 2413000 -2975117 2413000 -2975117 2794000 -2667000 2794000
+     -2667000 3302000 398780 3302000 398780 4467860)
+    (connect (terminal pin SV1-2) (terminal pin J1-5))
+   )
+   )
+   (Net N$27 
+   (wire (path BOTTOM 25400  5146040 -5100320 5080000 -5100320 5080000 -4699000
+     2317672 -4699000 2317672 -3855720 1729740 -3855720)
+    (connect (terminal wire) (terminal pin JP1-1))
+   )
+   (wire (path BOTTOM 25400  5679440 -5100320 5146040 -5100320)
+    (connect (terminal pin C2-2) (terminal wire))
+   )
+   (wire (path BOTTOM 25400  5146040 -5278120 5146040 -5100320)
+    (connect (terminal pin Q2-2) (terminal wire))
+   )
+   )
+   (Net N$28 
+   (wire (path BOTTOM 25400  5146040 -5786120 4826000 -5786120 4826000 -5715000
+     2493615 -5715000 2493615 -6731000 0 -6731000 0 -6350000
+     -61040 -6350000 -61040 -5207000 254000 -5207000 254000 -4191000
+     -1016000 -4191000 -1016000 -3601720 -746760 -3601720)
+    (connect (terminal pin Q2-1) (terminal pin JP2-2))
+   )
+   (wire (path BOTTOM 25400  5146040 -5786120 5146040 -5963920 5679440 -5963920)
+    (connect (terminal pin Q2-1) (terminal pin C3-1))
+   )
+   )
+   (Net N$29 
+   (wire (path BOTTOM 25400  -5334000 1270000 -5969000 1270000 -5969000 1351280
+     -6334760 1351280)
+    (connect (terminal pin R41-2) (terminal pin R34-1))
+   )
+   )
+   (Net N$30 
+   (wire (path BOTTOM 25400  72039 -6151720 72039 -5715000 508000 -5715000
+     508000 -4318000 585470 -4318000 585470 -2714860 508000 -2714860
+     508000 -634885 1270000 -634885 1270000 4826000 271780 4826000
+     271780 4721860)
+    (connect (terminal pin SV1-3) (terminal pin J1-6))
+   )
+   )
+   (Net N$31 
+   )
+   (Net N$32 
+   (wire (path BOTTOM 25400  1602740 -4808220 871220 -4808220 871220 -4493260)
+    (connect (terminal pin LED17-A) (terminal pin R40-2))
+   )
+   )
+   (Net N$33 
+   (wire (path BOTTOM 25400  -873760 -4808220 -873760 -4493260 45720 -4493260)
+    (connect (terminal pin LED18-A) (terminal pin R39-2))
+   )
+   )
+   (Net N$34 
+   (wire (path BOTTOM 25400  6365240 -5570220 6477000 -5570220 6477000 -4953000
+     6096000 -4953000 6096000 -4880610 5588000 -4880610 5588000 -4445000
+     3365500 -4445000 3365500 -2286000 3175000 -2286000 3175000 -2032000
+     2921000 -2032000 2921000 -3601720 1729740 -3601720)
+    (connect (terminal pin X3-8) (terminal pin JP1-2))
+   )
+   )
+   (Net N$35 
+   (wire (path BOTTOM 25400  2809240 -5062220 1968500 -5062220 1968500 -4127500
+     889000 -4127500 889000 -3156635 2809240 -3156635 2809240 -2331720)
+    (connect (terminal pin X1-5) (terminal pin X8-1))
+   )
+   )
+   (Net N$36 
+   (wire (path BOTTOM 25400  -3827780 6964680 -3683000 6964680 -3683000 6096000
+     -3429000 6096000 -3429000 5207000 -3683000 5207000 -3683000 5715000
+     -3983040 5715000 -3983040 4546600 -3187700 4546600)
+    (connect (terminal pin DIS2-P$10) (terminal pin R17-2))
+   )
+   )
+   (Net N$37 
+   (wire (path BOTTOM 25400  3063240 -2331720 3175000 -2331720 3175000 -4635500
+     5207000 -4635500 5207000 -4999990 5842000 -4999990 5842000 -5207000
+     5334000 -5207000 5334000 -5391150 4318000 -5391150 4318000 -5062220
+     3063240 -5062220)
+    (connect (terminal pin X8-2) (terminal pin X1-6))
+   )
+   )
+   (Net N$38 
+   (wire (path BOTTOM 25400  -5631180 4991100 -5631180 6391285 -4191000 6391285
+     -4191000 7239000 -3065780 7239000 -3065780 6964680)
+    (connect (terminal pin R12-2) (terminal pin DIS2-P$7))
+   )
+   )
+   (Net N$40 
+   )
+   (Net N$42 
+   (wire (path BOTTOM 25400  4079240 -3792220 4079240 -4000500 6604000 -4000500
+     6604000 7175500 4953000 7175500 4953000 7112000 4777740 7112000
+     4777740 6604000 4523740 6604000 4523740 7112000 4445000 7112000
+     4445000 7239000 4064000 7239000 4064000 7556500 -4699000 7556500
+     -4699000 7493000 -6477000 7493000 -6477000 4318000 -4653280 4318000
+     -4653280 3980180)
+    (connect (terminal pin X4-14) (terminal pin R14-1))
+   )
+   )
+   (Net N$44 
+   (wire (path BOTTOM 25400  4333240 -3792220 4191000 -3792220 4191000 -3214784
+     4135120 -3214784 4135120 -254000 3429000 -254000 3429000 0
+     2794000 0 2794000 7054850 -635000 7054850 -635000 6985000
+     -2286000 6985000 -2286000 5588000 -2794000 5588000 -2794000 4445000
+     -3746500 4445000 -3746500 3975100)
+    (connect (terminal pin X4-12) (terminal pin R16-1))
+   )
+   )
+   (Net N$45 
+   (wire (path BOTTOM 25400  -302260 6939280 -2159000 6939280 -2159000 5461000
+     -2669540 5461000 -2669540 4991100)
+    (connect (terminal pin SL1-1) (terminal pin R18-2))
+   )
+   (wire (path BOTTOM 25400  -302260 6939280 561340 6939280)
+    (connect (terminal pin SL1-1) (terminal pin DIS4-1))
+   )
+   )
+   (Net N$46 
+   (wire (path BOTTOM 25400  1323340 5923280 1323340 6050280 -635000 6050280
+     -635000 5588000 -1521460 5588000 -1521460 4932680)
+    (connect (terminal pin DIS4-10) (terminal pin R20-2))
+   )
+   )
+   (Net N$47 
+   (wire (path BOTTOM 25400  4904740 5415280 4904740 5207000 4726940 5207000
+     4726940 4742180)
+    (connect (terminal pin DIS3-P$4) (terminal pin R27-2))
+   )
+   )
+   (Net N$48 
+   (wire (path BOTTOM 25400  1932940 5059680 1932940 5415280 1323340 5415280)
+    (connect (terminal pin R22-2) (terminal pin DIS4-8))
+   )
+   )
+   (Net N$49 
+   (wire (path BOTTOM 25400  4541520 3147060 4541520 4318000 3810000 4318000
+     3810000 6731000 4142740 6731000 4142740 6939280)
+    (connect (terminal pin IC1-12) (terminal pin DIS3-P$12))
+   )
+   )
+   (Net N$50 
+   (wire (path BOTTOM 25400  4795520 3147060 4922520 3147060 4922520 3613761
+     4826000 3613761 4826000 4445000 3937000 4445000 3937000 6223000
+     4904740 6223000 4904740 6939280)
+    (connect (terminal pin IC1-11) (terminal pin DIS3-P$9))
+   )
+   )
+   (Net N$51 
+   (wire (path BOTTOM 25400  5049520 3147060 5049520 4318000 5412740 4318000
+     5412740 5160010 5080000 5160010 5080000 4630420 4445000 4630420
+     4445000 5207000 4294506 5207000 4294506 5715000 4318000 5715000
+     4318000 5969000 5158740 5969000 5158740 6939280)
+    (connect (terminal pin IC1-10) (terminal pin DIS3-P$8))
+   )
+   )
+   (Net N$52 
+   (wire (path BOTTOM 25400  5412740 5415280 5412740 5207000 5461000 5207000
+     5461000 3429000 5303520 3429000 5303520 3147060)
+    (connect (terminal pin DIS3-P$6) (terminal pin IC1-9))
+   )
+   )
+   (Net N$53 
+   (wire (path BOTTOM 25400  -4018280 -15240 -4018280 127000 -2413000 127000
+     -2413000 -5334000 -1397000 -5334000 -1397000 -6985000 4445000 -6985000
+     4445000 -7348220 4587240 -7348220)
+    (connect (terminal pin S4-A) (terminal pin X2-7))
+   )
+   )
+   (Net N$54 
+   (wire (path BOTTOM 25400  144780 4467860 144780 3175000 -2540000 3175000
+     -2540000 2667000 -2921000 2667000 -2921000 2286000 -3048000 2286000
+     -3048000 1905000 -2159000 1905000 -2159000 -2368322 -1662865 -2368322
+     -1662865 -5062220 -873760 -5062220)
+    (connect (terminal pin J1-7) (terminal pin LED18-K))
+   )
+   (wire (path BOTTOM 25400  822041 -6151720 822041 -6477000 -873760 -6477000
+     -873760 -5062220)
+    (connect (terminal pin SV1-6) (terminal pin LED18-K))
+   )
+   )
+   (Net N$57 
+   )
+   (Net N$58 
+   )
+   (Net N$59 
+   (wire (path BOTTOM 25400  5603240 -7348220 5461000 -7348220 5461000 -6858000
+     -1270000 -6858000 -1270000 -5270500 -2286000 -5270500 -2286000 1651000
+     -3388444 1651000 -3388444 2641516)
+    (connect (terminal pin X2-15) (terminal pin IC7-4))
+   )
+   )
+   (Net N$60 
+   (wire (path BOTTOM 25400  -2849629 3180331 -4191000 3180331 -4191000 -177800
+     -3048000 -177800 -3048000 -254000 -2540000 -254000 -2540000 -5397500
+     -1651000 -5397500 -1651000 -5588000 -1524000 -5588000 -1524000 -7239000
+     3937000 -7239000 3937000 -7620000 5842000 -7620000 5842000 -7094220
+     5603240 -7094220)
+    (connect (terminal pin IC7-1) (terminal pin X2-16))
+   )
+   )
+   (Net N$61 
+   )
+   (Net N$62 
+   )
+   (Net N$64 
+   (wire (path BOTTOM 25400  -3208839 2821121 -3029234 2821121)
+    (connect (terminal pin IC7-3) (terminal wire))
+   )
+   (wire (path BOTTOM 25400  -3029234 3000726 -3029234 2821121)
+    (connect (terminal pin IC7-2) (terminal wire))
+   )
+   )
+   (Net N$68 
+   (wire (path BOTTOM 25400  6619240 -5824220 6619240 -5715000 6096000 -5715000
+     6096000 -5524500 4826000 -5524500 4826000 -4953000 2159000 -4953000
+     2159000 -4064000 1059739 -4064000 1059739 -3878720)
+    (connect (terminal pin X3-5) (terminal pin J2-1))
+   )
+   (wire (path BOTTOM 25400  1059739 -3878720 1059739 -3578720)
+    (connect (terminal pin J2-1) (terminal pin J2-2))
+    (attr bus)
+   )
+   )
+   (Net N$69 
+   (wire (path BOTTOM 25400  1932940 4043680 1932940 -508000 3683000 -508000
+     3683000 -3683000 3937000 -3683000 3937000 -4064000 6731000 -4064000
+     6731000 -4808220 6619240 -4808220)
+    (connect (terminal pin R22-1) (terminal pin X3-13))
+   )
+   )
+   (Net N$71 
+   (wire (path BOTTOM 25400  -2082800 3530600 -2082800 4064000 -635000 4064000
+     -635000 5080000 1651000 5080000 1651000 -635000 3556000 -635000
+     3556000 -4191000 6096000 -4191000 6096000 -4699000 6619240 -4699000
+     6619240 -4554220)
+    (connect (terminal pin R19-1) (terminal pin X3-15))
+   )
+   )
+   (Net N$73 
+   )
+   (Net N$76 
+   (wire (path BOTTOM 25400  5603240 -3538220 5603240 -3175000 6096000 -3175000
+     6096000 4064000 5588000 4064000 5588000 5588000 5285740 5588000
+     5285740 5207000 5047300 5207000 5047300 5588000 4650740 5588000
+     4650740 5415280)
+    (connect (terminal pin X4-1) (terminal pin DIS3-P$3))
+   )
+   )
+   (Net N$77 
+   (wire (path BOTTOM 25400  5895340 3662680 5895340 1397000 5334000 1397000
+     5334000 -1542211 5095240 -1542211 5095240 -3538220)
+    (connect (terminal pin R29-1) (terminal pin X4-5))
+   )
+   )
+   (Net N$79 
+   (wire (path BOTTOM 25400  4841240 -3538220 4841240 254000 4953000 254000
+     4953000 889000 4668520 889000 4668520 2794000 4160520 2794000
+     4160520 3746718 4206240 3746718 4206240 4043680)
+    (connect (terminal pin X4-7) (terminal pin R26-1))
+   )
+   )
+   (Net N$82 
+   (wire (path BOTTOM 25400  6936740 3726180 6936740 4191000 6223000 4191000
+     6223000 -3683000 5349240 -3683000 5349240 -3538220)
+    (connect (terminal pin R31-1) (terminal pin X4-3))
+   )
+   )
+   (Net N$84 
+   (wire (path BOTTOM 25400  -3827780 5440680 -3937000 5440680 -3937000 4826000
+     -3175000 4826000 -3175000 5842000 -2540000 5842000 -2540000 7112000
+     3175000 7112000 3175000 4326446 2921000 4326446 2921000 127000
+     4191000 127000 4191000 -1778000 4333240 -1778000 4333240 -3538220)
+    (connect (terminal pin DIS2-P$3) (terminal pin X4-11))
+   )
+   )
+   (Net N$85 
+   (wire (path BOTTOM 25400  -4226560 3520440 -3810000 3520440 -3810000 3683000
+     -2159000 3683000 -2159000 4127500 -698500 4127500 -698500 5143500
+     1778000 5143500 1778000 4318000 2286000 4318000 2286000 -444500
+     3766820 -444500 3766820 -2966013 3825240 -2966013 3825240 -3538220)
+    (connect (terminal pin R15-1) (terminal pin X4-15))
+   )
+   )
+   (Net N$87 
+   (wire (path BOTTOM 25400  -5763260 -6776720 -5334000 -6776720 -5334000 -6967220
+     -4937760 -6967220)
+    (connect (terminal pin C5-2) (terminal pin D2-C))
+   )
+   (wire (path BOTTOM 25400  -4937760 -6967220 -4892040 -6967220 -4892040 -6141720
+     -4620260 -6141720)
+    (connect (terminal pin D2-C) (terminal pin IC6-1))
+   )
+   )
+   (Net N$88 
+   (wire (path BOTTOM 25400  -4366260 8082280 -3477260 8082280)
+    (connect (terminal pin LED3-A) (terminal pin LED4-A))
+   )
+   (wire (path BOTTOM 25400  -4366260 8082280 -4366260 8463280)
+    (connect (terminal pin LED3-A) (terminal pin R9-2))
+   )
+   )
+   (Net N$89 
+   (wire (path BOTTOM 25400  -2588260 8082280 -2159000 8082280 -2159000 8082285
+     -2080259 8082285)
+    (connect (terminal pin LED5-A) (terminal wire))
+   )
+   (wire (path BOTTOM 25400  -2080259 8082285 -2032000 8082285 -2032000 8082280
+     -1699260 8082280)
+    (connect (terminal wire) (terminal pin LED6-A))
+   )
+   (wire (path BOTTOM 25400  -2080260 8463280 -2080259 8463280 -2080259 8082285)
+    (connect (terminal pin R8-2) (terminal wire))
+   )
+   )
+   (Net N$90 
+   (wire (path BOTTOM 25400  -937260 8082280 -937260 8463280 -683260 8463280)
+    (connect (terminal pin LED7-A) (terminal pin R7-2))
+   )
+   (wire (path BOTTOM 25400  -48260 8082280 -937260 8082280)
+    (connect (terminal pin LED8-A) (terminal pin LED7-A))
+   )
+   )
+   (Net N$91 
+   (wire (path BOTTOM 25400  -3921760 -6967220 -3921760 -7112000 -2413000 -7112000
+     -2413000 -5647690 -1972310 -5647690 -1972310 -6967220 -1762760 -6967220)
+    (connect (terminal pin D2-A) (terminal pin S2-2))
+   )
+   )
+   (Net N$92 
+   (wire (path BOTTOM 25400  840740 8082280 1729740 8082280)
+    (connect (terminal pin LED9-A) (terminal pin LED10-A))
+   )
+   (wire (path BOTTOM 25400  1602740 8463280 1729740 8463280 1729740 8082280)
+    (connect (terminal pin R6-2) (terminal pin LED10-A))
+   )
+   )
+   (Net N$93 
+   (wire (path BOTTOM 25400  2999740 8463280 2999740 8082280 2618740 8082280)
+    (connect (terminal pin R5-2) (terminal pin LED11-A))
+   )
+   (wire (path BOTTOM 25400  2999740 8463280 3507740 8463280 3507740 8082280)
+    (connect (terminal pin R5-2) (terminal pin LED12-A))
+   )
+   )
+   (Net N$94 
+   (wire (path BOTTOM 25400  4396740 8082280 5285740 8082280)
+    (connect (terminal pin LED13-A) (terminal pin LED14-A))
+   )
+   (wire (path BOTTOM 25400  5285740 8463280 5285740 8082280)
+    (connect (terminal pin R4-2) (terminal pin LED14-A))
+   )
+   )
+   (Net N$95 
+   (wire (path BOTTOM 25400  7063740 8082280 6555740 8082280)
+    (connect (terminal pin LED16-A) (terminal wire))
+   )
+   (wire (path BOTTOM 25400  6555740 8082280 6174740 8082280)
+    (connect (terminal wire) (terminal pin LED15-A))
+   )
+   (wire (path BOTTOM 25400  6555740 8463280 6555740 8082280)
+    (connect (terminal pin R3-2) (terminal wire))
+   )
+   )
+   (Net N$97 
+   (wire (path BOTTOM 25400  -3421380 -7256780 -3421380 -7411720 -6017260 -7411720)
+    (connect (terminal pin S1-2) (terminal pin C1-2))
+   )
+   (wire (path BOTTOM 25400  -2771140 -7256780 -2771140 -7366000 -2080260 -7366000
+     -2080260 -5760720)
+    (connect (terminal pin S1-1) (terminal pin R1-1))
+   )
+   (wire (path BOTTOM 25400  -2771140 -7256780 -3421380 -7256780)
+    (connect (terminal pin S1-1) (terminal pin S1-2))
+   )
+   )
+   (Net N$98 
+   (wire (path BOTTOM 25400  635000 -5062220 635000 -5778500 254000 -5778500
+     254000 -5842000 197039 -5842000 197039 -6350000 447040 -6350000
+     447040 -5927010 1072040 -5927010 1072040 -6151720)
+    (connect (terminal wire) (terminal pin SV1-7))
+   )
+   (wire (path BOTTOM 25400  1602740 -5062220 635000 -5062220)
+    (connect (terminal pin LED17-K) (terminal wire))
+   )
+   (wire (path BOTTOM 25400  635000 -5062220 635000 -1813559 1333500 -1813559
+     1333500 4889500 17780 4889500 17780 4721860)
+    (connect (terminal wire) (terminal pin J1-8))
+   )
+   )
+   (Net N$99 
+   (wire (path BOTTOM 25400  -6225540 -1264920 -6225540 -1143000 -6477000 -1143000
+     -6477000 3302000 -3175000 3302000 -3175000 3429000 -325120 3429000
+     -325120 4203985 -127000 4203985 -127000 4572000 906780 4572000
+     906780 4467860)
+    (connect (terminal pin X7-1) (terminal pin J1-1))
+   )
+   (wire (path BOTTOM 25400  -6169660 -3929380 -5376617 -3929380 -5376617 -6014720
+     -3556000 -6014720 -3556000 -5588000 -1762760 -5588000 -1762760 -6586220)
+    (connect (terminal pin U$1-+@4) (terminal pin S2-1))
+   )
+   (wire (path BOTTOM 25400  -6169660 -3683000 -6350000 -3683000 -6350000 -2794000
+     -6477000 -2794000 -6477000 -2534920 -6225540 -2534920)
+    (connect (terminal wire) (terminal pin X7-6))
+   )
+   (wire (path BOTTOM 25400  -6225540 -2534920 -6225540 -2280920)
+    (connect (terminal pin X7-6) (terminal pin X7-5))
+   )
+   (wire (path BOTTOM 25400  -6169660 -3683000 -6169660 -3929380)
+    (connect (terminal wire) (terminal pin U$1-+@4))
+   )
+   (wire (path BOTTOM 25400  -6225540 -1518920 -6225540 -1264920)
+    (connect (terminal pin X7-2) (terminal pin X7-1))
+   )
+   (wire (path BOTTOM 25400  -6225540 -1772920 -6225540 -1518920)
+    (connect (terminal pin X7-3) (terminal pin X7-2))
+   )
+   (wire (path BOTTOM 25400  -6225540 -2280920 -6225540 -2026920)
+    (connect (terminal pin X7-5) (terminal pin X7-4))
+   )
+   (wire (path BOTTOM 25400  -6225540 -2026920 -6225540 -1772920)
+    (connect (terminal pin X7-4) (terminal pin X7-3))
+   )
+   )
+   (Net N$100 
+   (wire (path BOTTOM 25400  -607060 2519680 -254000 2519680 -254000 2794000
+     762000 2794000 762000 4191000 1016000 4191000 1016000 4721860
+     779780 4721860)
+    (connect (terminal pin R32-2) (terminal pin J1-2))
+   )
+   (wire (path BOTTOM 25400  -607060 2519680 -1016000 2519680 -1016000 2282306
+     -2670024 2282306)
+    (connect (terminal pin R32-2) (terminal pin IC7-6))
+   )
+   )
+   (Net N$101 
+   )
+   (Net N$102 
+   (wire (path BOTTOM 25400  2453640 4742180 2453640 6177280 1323340 6177280)
+    (connect (terminal pin R23-2) (terminal pin DIS4-11))
+   )
+   )
+   (Net N$103 
+   (wire (path BOTTOM 25400  4142740 5415280 4107180 5415280 4107180 4572000
+     5311140 4572000 5311140 5059680)
+    (connect (terminal pin DIS3-P$1) (terminal pin R28-2))
+   )
+   )
+   (Net N$104 
+   (wire (path BOTTOM 25400  1323340 6685280 1323340 6812280 -666858 6812280
+     -666858 6604000 -2082800 6604000 -2082800 4546600)
+    (connect (terminal pin DIS4-13) (terminal pin R19-2))
+   )
+   )
+   (Net N$105 
+   (wire (path BOTTOM 25400  4396740 5415280 4396740 5842000 5895340 5842000
+     5895340 4678680)
+    (connect (terminal pin DIS3-P$2) (terminal pin R29-2))
+   )
+   )
+   (Net N$106 
+   (wire (path BOTTOM 25400  6479540 5059680 6479540 4572000 5715000 4572000
+     5715000 5715000 5158740 5715000 5158740 5415280)
+    (connect (terminal pin R30-2) (terminal pin DIS3-P$5))
+   )
+   )
+   (Net N$107 
+   (wire (path BOTTOM 25400  6936740 4742180 6936740 5207000 6731000 5207000
+     6731000 7239000 4650740 7239000 4650740 6939280)
+    (connect (terminal pin R31-2) (terminal pin DIS3-P$10))
+   )
+   )
+   (Net N$108 
+   (wire (path BOTTOM 25400  4206240 5059680 4206240 5207000 4244973 5207000
+     4244973 5588000 4191000 5588000 4191000 6096000 5031740 6096000
+     5031740 7112000 5412740 7112000 5412740 6939280)
+    (connect (terminal pin R26-2) (terminal pin DIS3-P$7))
+   )
+   )
+   (Net N$109 
+   (wire (path BOTTOM 25400  3622040 3726180 3302000 3726180 3302000 1837844
+     4191000 1837844 4191000 381000 4699000 381000 4699000 -3792220
+     4587240 -3792220)
+    (connect (terminal pin R25-1) (terminal pin X4-10))
+   )
+   )
+   (Net N$111 
+   (wire (path BOTTOM 25400  5095240 -3792220 4953000 -3792220 4953000 -1148188
+     5176520 -1148188 5176520 2794000 4953000 2794000 4953000 2974340
+     4668520 2974340 4668520 3556000 4726940 3556000 4726940 3726180)
+    (connect (terminal pin X4-6) (terminal pin R27-1))
+   )
+   )
+   (Net N$113 
+   (wire (path BOTTOM 25400  5349240 -3792220 5207000 -3792220 5207000 -2271162
+     6032500 -2271162 6032500 3937000 5651500 3937000 5651500 2921000
+     5176520 2921000 5176520 3429000 5207000 3429000 5207000 3683000
+     5311140 3683000 5311140 4043680)
+    (connect (terminal pin X4-4) (terminal pin R28-1))
+   )
+   )
+   (Net N$115 
+   (wire (path BOTTOM 25400  5603240 -3792220 6479540 -3792220 6479540 4043680)
+    (connect (terminal pin X4-2) (terminal pin R30-1))
+   )
+   )
+   (Net N$116 
+   (wire (path BOTTOM 25400  -2669540 3975100 -2286000 3975100 -2286000 4191000
+     -762000 4191000 -762000 5207000 1714500 5207000 1714500 -571500
+     3619500 -571500 3619500 -3937000 3683000 -3937000 3683000 -4127500
+     6223000 -4127500 6223000 -4191000 6365240 -4191000 6365240 -4554220)
+    (connect (terminal pin R18-1) (terminal pin X3-16))
+   )
+   )
+   (Net N$118 
+   (wire (path BOTTOM 25400  6365240 -4808220 5842000 -4808220 5842000 -4318000
+     3429000 -4318000 3429000 -1820990 1778000 -1820990 1778000 -1284458
+     1524000 -1284458 1524000 5016500 -508000 5016500 -508000 3916680
+     -1521460 3916680)
+    (connect (terminal pin X3-14) (terminal pin R20-1))
+   )
+   )
+   (Net N$120 
+   (wire (path BOTTOM 25400  6365240 -5062220 5969000 -5062220 5969000 -4953000
+     5334000 -4953000 5334000 -4572000 3302000 -4572000 3302000 -1905000
+     1397000 -1905000 1397000 4953000 -381000 4953000 -381000 3683000
+     -508000 3683000 -508000 3535680 -937260 3535680)
+    (connect (terminal pin X3-12) (terminal pin R21-1))
+   )
+   )
+   (Net N$121 
+   (wire (path BOTTOM 25400  3037840 4043680 3037840 190500 4265930 190500
+     4265930 -1143000 4318000 -1143000 4318000 -1524000 4445000 -1524000
+     4445000 -3937000 6858000 -3937000 6858000 -5062220 6619240 -5062220)
+    (connect (terminal pin R24-1) (terminal pin X3-11))
+   )
+   )
+   (Net N$122 
+   (wire (path BOTTOM 25400  759739 -3878720 759739 -4953000 1905000 -4953000
+     1905000 -5207000 4064000 -5207000 4064000 -5461000 5969000 -5461000
+     5969000 -5316220 6365240 -5316220)
+    (connect (terminal pin J2-3) (terminal pin X3-10))
+   )
+   (wire (path BOTTOM 25400  759739 -3878720 759739 -3578720)
+    (connect (terminal pin J2-3) (terminal pin J2-4))
+    (attr bus)
+   )
+   )
+   (Net N$124 
+   (wire (path BOTTOM 25400  -1623060 2921000 652780 2921000 652780 4467860)
+    (connect (terminal wire) (terminal pin J1-3))
+   )
+   (wire (path BOTTOM 25400  -1623060 2921000 -1623060 2519680)
+    (connect (terminal wire) (terminal pin R32-1))
+   )
+   (wire (path BOTTOM 25400  -1638300 2921000 -1623060 2921000)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOTTOM 25400  -1638300 2921000 -2490419 2921000 -2490419 2461911)
+    (connect (terminal wire) (terminal pin IC7-7))
+   )
+   )
+   (Net N$125 
+   (wire (path BOTTOM 25400  -3187700 3530600 -3429000 3530600 -3429000 3402330
+     -4445000 3402330 -4445000 3746500 -2921000 3746500 -2921000 4318000
+     -1778000 4318000 -1778000 6292850 2413000 6292850 2413000 6223000
+     2667000 6223000 2667000 -381000 4079240 -381000 4079240 -3538220)
+    (connect (terminal pin R17-1) (terminal pin X4-13))
+   )
+   )
+   (Net N$126 
+   (wire (path BOTTOM 25400  -5793740 299720 -5793740 -254000 -4508500 -254000)
+    (connect (terminal pin R33-1) (terminal wire))
+   )
+   (wire (path BOTTOM 25400  -4508500 -254000 -4508500 -505460)
+    (connect (terminal wire) (terminal pin S4-A2))
+   )
+   (wire (path BOTTOM 25400  -4445000 127000 -4508500 127000 -4508500 -254000)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOTTOM 25400  -6334760 335280 -6223000 335280 -6223000 299720
+     -5793740 299720)
+    (connect (terminal pin R34-2) (terminal pin R33-1))
+   )
+   )
+   (Net N$129 
+   (wire (path BOTTOM 25400  -2794000 -5316220 -2794000 -5461000 -1333500 -5461000
+     -1333500 -6921500 4572000 -6921500 4572000 -6985000 4699000 -6985000
+     4699000 -7094220)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOTTOM 25400  -2032000 -127000 159741 -127000 159741 -3578720)
+    (connect (terminal wire) (terminal pin J2-8))
+   )
+   (wire (path BOTTOM 25400  3429000 3810000 3429000 4000500 3365500 4000500
+     3365500 7302500 -2794000 7302500 -2794000 6604000 -3429000 6604000
+     -3429000 7160890 -3683000 7160890 -3683000 7112000 -3729040 7112000
+     -3729040 6096000 -5207000 6096000 -5207000 2990046 -4318000 2990046
+     -4318000 -789940)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOTTOM 25400  -4318000 -789940 -5207000 -789940 -5207000 -1016000)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOTTOM 25400  3429000 3810000 3175000 3810000 3175000 254000
+     4572000 254000 4572000 -381000 4429760 -381000 4429760 -853440)
+    (connect (terminal wire) (terminal pin S3-A1))
+   )
+   (wire (path BOTTOM 25400  3525520 3147060 3652520 3147060 3652520 3429000
+     3810000 3429000 3810000 3858260 3429000 3858260 3429000 3810000)
+    (connect (terminal pin IC1-16) (terminal wire))
+   )
+   (wire (path BOTTOM 25400  -2310814 2641516 -2310814 2159000 -2032000 2159000
+     -2032000 -127000)
+    (connect (terminal pin IC7-8) (terminal wire))
+   )
+   (wire (path BOTTOM 25400  -4015740 -789940 -4015740 -635000 -3175000 -635000)
+    (connect (terminal pin S4-A1) (terminal wire))
+   )
+   (wire (path BOTTOM 25400  -3175000 -635000 -3175000 -254000)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOTTOM 25400  381000 -5334000 381000 -5461000)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOTTOM 25400  1322040 -6151720 1322040 -6139019 1524000 -6139019
+     1524000 -5334000 871220 -5334000)
+    (connect (terminal pin SV1-8) (terminal wire))
+   )
+   (wire (path BOTTOM 25400  871220 -5334000 381000 -5334000)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOTTOM 25400  3175000 -5461000 3655367 -5461000 3655367 -5588000
+     5842000 -5588000)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOTTOM 25400  3175000 -5461000 3175000 -5570220)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOTTOM 25400  1322040 -6151720 2032000 -6151720 2032000 -5461000
+     3175000 -5461000)
+    (connect (terminal pin SV1-8) (terminal wire))
+   )
+   (wire (path BOTTOM 25400  3175000 -5570220 3063240 -5570220)
+    (connect (terminal wire) (terminal pin X1-10))
+   )
+   (wire (path BOTTOM 25400  -4015740 -789940 -4318000 -789940)
+    (connect (terminal pin S4-A1) (terminal wire))
+   )
+   (wire (path BOTTOM 25400  871220 -5509260 871220 -5334000)
+    (connect (terminal pin R40-1) (terminal wire))
+   )
+   (wire (path BOTTOM 25400  381000 -5334000 381000 -4064000 159741 -4064000
+     159741 -3878720)
+    (connect (terminal wire) (terminal pin J2-7))
+   )
+   (wire (path BOTTOM 25400  45720 -5509260 45720 -5588000 381000 -5588000
+     381000 -5461000)
+    (connect (terminal pin R39-1) (terminal wire))
+   )
+   (wire (path BOTTOM 25400  -3937000 -5080000 -3175000 -5080000 -3175000 -635000)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOTTOM 25400  5842000 -5588000 5842000 -5824220 6365240 -5824220)
+    (connect (terminal wire) (terminal pin X3-6))
+   )
+   (wire (path BOTTOM 25400  4699000 -7094220 4699000 -7493000 4079240 -7493000
+     4079240 -7348220)
+    (connect (terminal wire) (terminal pin X2-3))
+   )
+   (wire (path BOTTOM 25400  4841240 -7094220 4699000 -7094220)
+    (connect (terminal pin X2-10) (terminal wire))
+   )
+   (wire (path BOTTOM 25400  4429760 -853440 4429760 -1270000 4587240 -1270000
+     4587240 -3538220)
+    (connect (terminal pin S3-A1) (terminal pin X4-9))
+   )
+   (wire (path BOTTOM 25400  -5593080 -1016000 -5593080 -716280 -5793740 -716280)
+    (connect (terminal wire) (terminal pin R33-2))
+   )
+   (wire (path BOTTOM 25400  -3477260 -5316220 -3937000 -5316220 -3937000 -5080000)
+    (connect (terminal pin D1-C) (terminal wire))
+   )
+   (wire (path BOTTOM 25400  -3937000 -5080000 -4117340 -5080000 -4117340 -5598160)
+    (connect (terminal wire) (terminal pin C4-2))
+   )
+   (wire (path BOTTOM 25400  -5593080 -2519680 -5593080 -2667000 -5334000 -2667000
+     -5334000 -2265680)
+    (connect (terminal pin X5-6) (terminal wire))
+   )
+   (wire (path BOTTOM 25400  -5334000 -1757680 -5334000 -1503680 -5593080 -1503680)
+    (connect (terminal wire) (terminal pin X5-2))
+   )
+   (wire (path BOTTOM 25400  -5593080 -1249680 -5593080 -1016000)
+    (connect (terminal pin X5-1) (terminal wire))
+   )
+   (wire (path BOTTOM 25400  -5593080 -1016000 -5334000 -1016000)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOTTOM 25400  -2794000 -5316220 -2715260 -5316220 -2715260 -4998720)
+    (connect (terminal wire) (terminal pin R2-2))
+   )
+   (wire (path BOTTOM 25400  -4117340 -5598160 -4318000 -5598160 -4318000 -5633720
+     -4620260 -5633720)
+    (connect (terminal pin C4-2) (terminal pin IC6-3))
+   )
+   (wire (path BOTTOM 25400  -2794000 -5316220 -3477260 -5316220)
+    (connect (terminal wire) (terminal pin D1-C))
+   )
+   (wire (path BOTTOM 25400  -5593080 -2265680 -5334000 -2265680)
+    (connect (terminal pin X5-5) (terminal wire))
+   )
+   (wire (path BOTTOM 25400  -5334000 -1757680 -5593080 -1757680)
+    (connect (terminal wire) (terminal pin X5-3))
+   )
+   (wire (path BOTTOM 25400  -5593080 -2011680 -5334000 -2011680)
+    (connect (terminal pin X5-4) (terminal wire))
+   )
+   (wire (path BOTTOM 25400  -5334000 -2265680 -5334000 -2011680)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOTTOM 25400  -5334000 -2011680 -5334000 -1757680)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOTTOM 25400  -5593080 -1503680 -5593080 -1397000 -5207000 -1397000
+     -5207000 -1016000)
+    (connect (terminal pin X5-2) (terminal wire))
+   )
+   (wire (path BOTTOM 25400  -5207000 -1016000 -5334000 -1016000)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOTTOM 25400  159741 -3878720 159741 -3578720)
+    (connect (terminal pin J2-7) (terminal pin J2-8))
+    (attr bus)
+   )
+   )
+   (Net N$130 
+   (wire (path BOTTOM 25400  459740 -3578720 459740 -3878720)
+    (connect (terminal pin J2-6) (terminal pin J2-5))
+    (attr bus)
+   )
+   )
+   (Net N$134 
+   )
+  )
+ )

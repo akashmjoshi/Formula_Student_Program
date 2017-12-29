@@ -1,0 +1,17 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F6720 -DL -O11111114 -fo16 -N"E:\Electronics\ORION 2013\Steering Wheel\Steering Wheelv1.01.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"E:\Electronics\ORION 2013\Steering Wheel\" "Steering Wheelv1.01.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CType.mcl" "__Lib_CString.mcl" "__Lib_CStdlib.mcl" "__Lib_CMath.mcl" "__Lib_Conversions.mcl" "__Lib_Sprintf.mcl" "__Lib_PrintOut.mcl" "__Lib_Sprinti.mcl" "__Lib_Sprintl.mcl" "__Lib_Time.mcl" "__Lib_Trigonometry.mcl" "__Lib_Button.mcl" "__Lib_Keypad4x4.mcl" "__Lib_Manchester.mcl" "__Lib_OneWire.mcl" "__Lib_PS2.mcl" "__Lib_Sound.mcl" "__Lib_SoftI2C.mcl" "__Lib_SoftSPI.mcl" "__Lib_SoftUART.mcl" "__Lib_ADC_A_D.mcl" "__Lib_EEPROM_1024.mcl" "__Lib_FLASH_w8_e64.mcl" "__Lib_I2C_c34.mcl" "__Lib_PWM_c21.mcl" "__Lib_PWM_g0.mcl" "__Lib_PWM_g34.mcl" "__Lib_SPI_c345.mcl" "__Lib_UART_c67g12.mcl" "__Lib_PortExpander.mcl" "__Lib_CANSPI.mcl" "__Lib_CF.mcl" "__Lib_CFFat16.mcl" "__Lib_GlcdFonts.mcl" "__Lib_Glcd.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl" "__Lib_Mmc.mcl" "__Lib_MmcFat16.mcl" "__Lib_RS485.mcl" "__Lib_S1D13700.mcl" "__Lib_T6963C.mcl" "__Lib_SPIGlcd.mcl" "__Lib_SPILcd.mcl" "__Lib_SPILcd8.mcl" "__Lib_SPIT6963C.mcl" "__Lib_EthEnc28j60.mcl" "__Lib_TFT.mcl" "__Lib_TouchPanel_TFT.mcl" "__Lib_EthEnc24j600.mcl" "__Lib_TouchPanel.mcl"	 
+hint: 0	1139	Available RAM: 3819 [bytes], Available ROM: 131072 [bytes]	 
+diagnostics: 0	126	All files Preprocessed in 172 ms	 
+diagnostics: 0	122	Compilation Started	Steering Wheelv1.01.c
+warning: 72	1503	Result is not defined in function: 'speed'	Steering Wheelv1.01.c
+warning: 77	1503	Result is not defined in function: 'fuelused'	Steering Wheelv1.01.c
+warning: 97	1503	Result is not defined in function: 'rpmlights'	Steering Wheelv1.01.c
+warning: 145	1503	Result is not defined in function: 'segr'	Steering Wheelv1.01.c
+warning: 191	1503	Result is not defined in function: 'segl'	Steering Wheelv1.01.c
+diagnostics: 353	123	Compiled Successfully	Steering Wheelv1.01.c
+diagnostics: 0	127	All files Compiled in 140 ms	 
+hint: 0	1144	Used RAM (bytes): 87 (2%)  Free RAM (bytes): 3732 (98%)	Used RAM (bytes): 87 (2%)  Free RAM (bytes): 3732 (98%)
+hint: 0	1144	Used ROM (bytes): 5672 (4%)  Free ROM (bytes): 125400 (96%)	Used ROM (bytes): 5672 (4%)  Free ROM (bytes): 125400 (96%)
+diagnostics: 0	125	Project Linked Successfully	Steering Wheelv1.01.mcppi
+diagnostics: 0	128	Linked in 312 ms	 
+diagnostics: 0	129	Project 'Steering Wheelv1.01.mcppi' completed: 827 ms	 
+diagnostics: 0	103	Finished successfully: 09 Jul 2013, 02:06:40	Steering Wheelv1.01.mcppi

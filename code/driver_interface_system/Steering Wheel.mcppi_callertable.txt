@@ -1,0 +1,12 @@
+main
+	__CC2DW
+	Div_8x8_U
+	gear
+		__CC2DW
+	segr
+		Div_16x16_S
+			Div_16x16_S_L
+		seg7
+			__CC2DW
+	ADC_Read
+		Delay_22us
