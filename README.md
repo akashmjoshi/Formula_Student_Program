@@ -1,7 +1,7 @@
 # Formula_Student_Program
-# Abstract
-Students build a single seat formula racecar with which they can compete against teams from all over the world. The competition is not won solely by the team with the fastest car, but rather by the team with the best overall package of construction, performance, and financial and sales planning.
-
-Formula Student challenges the team members to go the extra step in their education by incorporating into it intensive experience in building and manufacturing as well as considering the economic aspects of the automotive industry. Teams take on the assumption that they are a manufacturer developing a prototype to be evaluated for production. The target audience is the non-professional Weekend-Racer. The racecar must show very good driving characteristics such as acceleration, braking and handling. It should be offered at a very reasonable cost and be reliable and dependable. Additionally, the car's market value increases through other factors such as aesthetics, comfort and the use of readily available, standard purchase components. 
-
-The challenge the teams face is to compose a complete package consisting of a well constructed racecar and a sales plan that best matches these given criteria. The decision is made by a jury of experts from the motorsport, automotive and supplier industries. The jury will judge every team's car and sales plan based on construction, cost planning and sales presentation. The rest of the judging will be done out on the track, where the students demonstrate in a number of performance tests how well their self-built racecars fare in their true environment.
+# Responsiblity
+• Established CAN communication with Motec M400 (ECU) to display real-time sensor data on the steering-wheel
+• Designed and manufactured a non-contact infrared tire-temperature and brake disc temperature data logger
+• Performed Gear-Change Ignition Cut using a electronic-solenoid to perform clutch-less gear shifting
+• Tuned the fuel and ignition maps during chassis-dyno to achieve a flat torque curve and optimize fuel efficiency  
+•  Created a Wiki-System to allow proper flow of data among all subsystems of the team - https://sites.google.com/a/orion-racing.com/orion-wiki-test/
